@@ -1,22 +1,22 @@
-# Qué es Python?
+# Qué es Python? 🐍
 Es un lenguaje de programación multiparadigma uitilizado para diseñar aplicaciones y programas de computadoras .
-# Qué es una variable?
+# Qué es una variable?🤖
 Una variable es parecida a una caja o un lugar donde puedo almacenar objetos como texto, numeros, etc, al momento de escribir una varible no puede empezar por números y debe estar en minúscula. Al momento de poner más palabras para nombrar una variable tendremos que separarlas con un guión bajo y debe tener un máximo de 15 caracteres.   
 
-## Nombrando una variable
+## Nombrando una variable 💻
 Al momento de nombrar una variable tenemos que seguir las reglas básicas como empezar escribiendo en minúscula y con letras, si queremos escribir más palabras separarlas con guión bajo y tener un máximo de 15 caracteres.
 ```python 
 variable_uno = 
 
 ```
 
-## Asignando valores a una variable
+## Asignando valores a una variable 📝
 Podemos asignar diferentes valores ya sean números o palabras.
 ```python 
 variable_uno = 3
 variable_dos = [perro, gato]
 ```
-## Operadores básicos
+## Operadores básicos 📝
 los mas basicos son:
  
 suma : +
@@ -35,7 +35,7 @@ potenciación : **
 
 
 
-### Suma
+### Suma 📝
  
 ```python
 a = 7 
@@ -50,7 +50,7 @@ sum = a + b
 print('suma total:', sum)
 [salida] = suma total: 15 
 ```
-### Resta
+### Resta 📝
 
 ```python
 a = 10
@@ -65,7 +65,7 @@ rest = a - b
 print('resta total:', rest)
 [salida] = resta total: 5
 ```
-### Multiplicación
+### Multiplicación 📝
 
 ```python
 a = 5
@@ -80,7 +80,7 @@ multi = a * b
 print('multiplicación total:', multi)
 [salida] = multiplicación total: 45
 ```
-### División
+### División 📝
 
 ```python
 a = 100
@@ -95,7 +95,7 @@ división = a / b
 print('división total:', división)
 [salida] = división total: 25
 ```
-### Módulo
+### Módulo 📝
 
 ```python
 a = 100
@@ -110,9 +110,9 @@ mod = a % b
 print('modulo:', mod)
 [salida] = modulo: 0
 ```
-# Tipos de datos en Python
+# Tipos de datos en Python 🤖
 
-## Integer
+## Integer 💻
 Son los numeros enteros los cuales no contienen decimáles, pueden ser positivos o negativos.
 
 Ejemplo: 
@@ -123,7 +123,7 @@ y = -8
 
 z = 100
 
-## Float
+## Float 📝
 Es utilizado para reperesentar números decimáles, pueden ser positivos o negativos 
 
 Ejemplo:
@@ -134,14 +134,14 @@ y = -4.6
 
 z = 0.7
 
-## String
+## String 📝
 Se utiliza para representar una cadena de carácteres o palabras.
 
 Ejemplo:
 
 print("Buenas tardes")
 
-## Casting en Python
+## Casting en Python 📝
 Es la técnica que sirve para convertir un dato de un tipo a un tipo diferente.
 
 Ejemplo: 
@@ -152,7 +152,7 @@ str(letras) a int(enteros) : int('28')
 
 float(decimales) a int(enteros) : int(5.9)
 
-## List
+## List 📝
 Sirven para crear estructuras de datos de manera ordenada, no hace falta que sean del mismo tipo.
 
 Ejemplo:
@@ -164,7 +164,7 @@ print(list)
 [salida] =  [1,2,3,4,'l']
 ```
 
-## Tuple
+## Tuple 📝
 Es una estructura de datos propia de python que permite almacenar distintos valores, son inmutables ya que no cambian una vez inicializadas.Pueden contener diferentes tipos de datos ya sean decimales, enteros, texto, etc.
 
 Ejemplo:
@@ -175,7 +175,7 @@ print(tuple)
 
 [salida] = (1,2,3)
 ```
-## Dictionary
+## Dictionary 📚
 Es utilizado para almacenar valores de datos en pares clave:valor, sirve para coleccionar información tal como un diccionario normal y corriente de manera ordenada.
 
 Ejemplo:
@@ -186,9 +186,9 @@ print(diccionario[azul])
 
 [salida] = blue
 ```
-# Tomando decisiones
+# Tomando decisiones 🤖
 
-## Sentencia if
+## Sentencia if 🖥️
 En python podemos ingresar diferentes condiciones lógicas como:
 
 igual a : a == b 
@@ -215,7 +215,7 @@ if b > a :
  
  print('b es mayor que a')
  
- ## sentencia elif 
+ ## sentencia elif 🖥️
 Esta sentencia esta relacionada con if ya que si no cumplimos el 'if' intervine 'elif' haciendo la pregunta 'si las condiciones anteriores no funcionan, entonces intente con esta nueva condición'. 
 
 Ejemplo:
@@ -232,7 +232,7 @@ elif a == b:
 
 print('a es igual a b')
 
-## Ciclo For
+## Ciclo For 🖥️
 E bucle for recorre la colección elemento por elemento depeniendo de los elementos que haya seran la cantidad de veces que se repita, el elemento puede estar compuesto por cualquier dato no importa si son str, int o float lo único que tomara en cuenta sera la cantidad de elementos que haya.
 
 Ejemplo:
@@ -247,7 +247,7 @@ elemento: 3
 elemento: hola
 ```
 
-## Ciclo While
+## Ciclo While 🖥️
 Se lo conoce por ser un bucle indeterminado de iteraciones donde necesitamos que se cumpla una condición para que el bucle se siga ejecutando.
 
 Ejemplo:
@@ -261,7 +261,7 @@ numero = int(input('ingrese un numero:'))
 print(f'su raiz cuadrada es: {(math.sqrt(numero))}')
 
 ```
-## Break
+## Break 🖥️
 Es una palabra reservada y sirve para romper un ciclo.
 
 Ejemplo: 
@@ -276,7 +276,7 @@ for i in range(11):
         break
 
 ```
-## Continue
+## Continue 🖥️
 Es una palabra reservada, comparte semejanzas con el break pero en vez de romper el ciclo continua con uno diferente.
 
 Ejemplo:
